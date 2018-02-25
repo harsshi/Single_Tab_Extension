@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Single Tab",
+  "version": "1.0.0",
+  "description": "Write description here",
+  "icons": {},
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Single Tab"
+  },
+  "background": {
+    "page": "singletab.html",
+    "persistent": false
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "unlimitedStorage",
+    "contextMenus"
+  ]
+}
